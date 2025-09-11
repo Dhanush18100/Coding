@@ -8,7 +8,6 @@ public class secondLargetElement {
         int secondLarget=-1;
         for(int i=arr.length-2;i>0;i--){
             if(arr[i]!=largest){
-               
                 secondLarget=arr[i];
                 break;
             }
